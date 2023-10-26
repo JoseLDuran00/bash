@@ -4,7 +4,7 @@ text1=""
 text2=" a"
 
 if [ $text1 ]; then
-	echo "este string no tiene solo espacios"
+	echo "este string contiene caracteres"
 fi
 
 if [[ -n $text ]]; then
